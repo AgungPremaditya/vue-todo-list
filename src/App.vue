@@ -65,7 +65,7 @@ export default defineComponent({
       <button class="button">Add ToDo</button>
     </form>
     <div class="list-wrapper">
-      <h4>ToDo</h4>
+      <h4>ToDo List</h4>
       <ul class="todo-list">
         <li v-for="(todo, index) in todos">
           <span :class="{ done: todo.done }" @click="doneTodo(todo)">{{
